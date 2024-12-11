@@ -1,6 +1,6 @@
 import java.util.*;
 
-// ======= Anggota 1: Menangani Materi Sorting =======
+
 // Kelas Item untuk menyimpan data barang yang hilang atau ditemukan
 class Item {
     String name;
@@ -20,7 +20,8 @@ class Item {
         return "Nama: " + name + "\nKategori: " + category + "\nDeskripsi: " + description + "\n";
     }
 }
-
+// ======= Anggota 1 : Menangani Materi Bubble Sorting =======
+// ======= Anggota 2: Menangani Materi Searching Sort Colection =======
 class Sorting {    
     public static void sortItemsByName(Map<String, Item> itemsMap) {
         // Mengubah map menjadi list untuk proses pengurutan
@@ -49,7 +50,7 @@ class Sorting {
     
 }
 
-// ======= Anggota 2: Menangani Materi Searching =======
+
 class Searching {
     public static void searchAndShow(String name, Map<String, Item> lostItemsMap, Map<String, Item> foundItemsMap) {
         // Konversi nama menjadi huruf kecil untuk pencarian case-insensitive
@@ -340,12 +341,12 @@ public class LostAndFoundApp {
 
         while (true) {
             System.out.println("\n===== Sistem Lost and Found =====");
-            System.out.println("1. Pemilihan Berdasarkan HashMap");
-            System.out.println("2. Pemilihan Berdasarkan Graph (DFS)");
-            System.out.println("3. Pemilihan Berdasarkan Collection");
-            System.out.println("4. Pemilihan Berdasarkan Linked List");
-            System.out.println("5. Pemilihan Berdasarkan Binary Tree");
-            System.out.println("6. Bubble Sort dan Insertion Sort");
+            System.out.println("1. HashMap");
+            System.out.println("2. Graph (DFS)");
+            System.out.println("3. Collection");
+            System.out.println("4. Linked List");
+            System.out.println("5. Binary Tree");
+            System.out.println("6. Bubble Sort");
             System.out.println("7. Keluar");
             System.out.print("Pilih opsi: ");
 
