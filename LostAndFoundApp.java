@@ -20,8 +20,7 @@ class Item {
         return "Nama: " + name + "\nKategori: " + category + "\nDeskripsi: " + description + "\n";
     }
 }
-// ======= Anggota 1 : Menangani Materi Bubble Sorting =======
-// ======= Anggota 2: Menangani Materi Searching Sort Colection =======
+
 class Sorting {    
     public static void sortItemsByName(Map<String, Item> itemsMap) {
         // Mengubah map menjadi list untuk proses pengurutan
@@ -80,7 +79,7 @@ class Searching {
     
 }
 
-// ======= Anggota 3: Menangani Materi Linked List =======
+
 class ItemNode {
     Item item;
     ItemNode next;
@@ -116,7 +115,6 @@ class ItemList {
     }
 }
 
-// ======= Anggota 4: Menangani Materi Binary Tree =======
 class TreeNode {
     Item item;
     TreeNode left, right;
@@ -253,7 +251,7 @@ class BinaryTree {
     }
 }
 
-// ======= Anggota 5: Menangani Materi Graph DFS =======
+
 class Graph {
     private Map<String, List<String>> adjacencyList;
 
@@ -282,7 +280,7 @@ class Graph {
     }
 }
 
-// ======= Anggota 6: Menangani Tampilan Menu Utama =======
+
 class LostAndFoundSystem {
     Map<String, Item> lostItemsMap;
     Map<String, Item> foundItemsMap;
